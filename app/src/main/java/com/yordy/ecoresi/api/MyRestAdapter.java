@@ -14,7 +14,7 @@ import com.yordy.ecoresi.remoting.adapters.RestContractItem;
  */
 public class MyRestAdapter extends RestAdapter {
     public static final int TIMEOUT = 90000;
-    public static final String url = "http://192.168.43.215:3000/api";
+    public static final String url = "http://192.168.100.101:3000/api";
     private MyUser currentUser;
     private JugadorBanca currentjugadorBanca;
     private Banca currentBanca;
@@ -36,6 +36,9 @@ public class MyRestAdapter extends RestAdapter {
             adapter.getContract().addItem(
                     new RestContractItem("Jugadas/jugar", "POST"),
                     "Jugadas.jugar");
+            adapter.getContract().addItem(
+                    new RestContractItem("Aptjugadors/confirm", "GET"),
+                    "Aptjugador.confirm");
         }
         return adapter;
     }

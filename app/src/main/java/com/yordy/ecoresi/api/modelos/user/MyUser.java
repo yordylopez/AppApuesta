@@ -22,6 +22,7 @@ public class MyUser extends com.yordy.ecoresi.loopback.User{
     private String fecha_nacimiento;
     private int current_banca;
     private Banca bancaSelected = null;
+    private boolean emailVerified;
     private List<Map> enviarJugadas = new ArrayList<Map>();
 
     public String getNombre() {
@@ -117,5 +118,13 @@ public class MyUser extends com.yordy.ecoresi.loopback.User{
             }
         }
         return encontro;
+    }
+
+    public boolean isEmailVerified() {
+        return emailVerified;
+    }
+
+    public void setEmailVerified(boolean emailVerified) {
+        this.emailVerified = emailVerified;
     }
 }

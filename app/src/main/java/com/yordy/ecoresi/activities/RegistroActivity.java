@@ -3,7 +3,9 @@ package com.yordy.ecoresi.activities;
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -34,6 +36,7 @@ import com.yordy.ecoresi.views.CustomFontTextView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -63,11 +66,13 @@ public class RegistroActivity extends ActionBarActivity implements OnClickListen
     String fecha_nac = null;
     private int mYear, mMonth, mDay;
     protected ProgressDialog progressDialog;
+    SharedPreferences prefs = null;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView((int) R.layout.activity_registro);
         ButterKnife.inject((Activity) this);
+        this.prefs = getSharedPreferences("appanimalitoprefs", Context.MODE_PRIVATE);
         progressDialog = DialogUtils.getProgressDialog(this);
         this.fecha_nacimiento.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -87,6 +92,7 @@ public class RegistroActivity extends ActionBarActivity implements OnClickListen
                 openLogin();
                 break;
             case R.id.registrarme:
+                finish();
                 PasswordValidation.pass(this.contrasena.getText().toString());
                 if (validar()) {
                     registrar();
@@ -115,6 +121,11 @@ public class RegistroActivity extends ActionBarActivity implements OnClickListen
             @Override
             public void onSuccess() {
                 Log.e("guardado", "user");
+                SharedPreferences.Editor editor = prefs.edit();
+                editor.putString("email", email.getText().toString());
+                editor.putString("password", contrasena.getText().toString());
+                editor.putBoolean("emailVerify",false);
+                editor.commit();
                 progressDialog.hide();
                 alertDialogo("Felicidades, se ha registrado correctamente.",new DialogInterface.OnClickListener() {
                     @Override

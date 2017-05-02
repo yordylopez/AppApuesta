@@ -120,7 +120,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         View rootView = inflater.inflate(R.layout.fragment_profile, container, false);
         ButterKnife.inject((Object) this, rootView);
         toolbar = (Toolbar) ((AppCompatActivity) getActivity()).findViewById(R.id.toolbar);
-        toolbar.setTitle("Inicio");
+        toolbar.setTitle("Mi cuenta");
         RecyclerViewHeader header = RecyclerViewHeader.fromXml(getActivity(), R.layout.header_profile);
 
         String user = this.sesion.getUsername();
