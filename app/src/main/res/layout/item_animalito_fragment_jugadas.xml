@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#fff8f8f8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#0bc769"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+        <ImageView
+            android:id="@+id/foto_animalito"
+            android:layout_width="100.0dip"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="1dp"
+            android:src="@drawable/carnero"
+            android:contentDescription="@string/imagen_de_animalito_judago" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1dp"
+            android:foregroundGravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.38">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.yordy.ecoresi.views.CustomFontTextView
+                            android:textSize="16.0dip"
+                            android:textColor="#ff000000"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hora:"
+                            customfont:fontName="AvenirMedium.otf" />
+
+                        <com.yordy.ecoresi.views.CustomFontTextView
+                            android:textSize="14.0dip"
+                            android:textColor="#ff000000"
+                            android:gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12 pm"
+                            customfont:fontName="AvenirMedium.otf"
+                            android:id="@+id/txt_hora_jugada"
+                            android:layout_gravity="top|center_horizontal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TableRow android:background="#000000" android:layout_width="1dp" android:layout_height="match_parent" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.38"
+                    android:showDividers="middle|beginning|end"
+                    android:background="#0bc769">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.yordy.ecoresi.views.CustomFontTextView
+                            android:textSize="16.0dip"
+                            android:textColor="#ff000000"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Monto:"
+                            customfont:fontName="AvenirMedium.otf" />
+
+                        <com.yordy.ecoresi.views.CustomFontTextView
+                            android:textSize="14.0dip"
+                            android:textColor="#ff000000"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9000 Bs."
+                            customfont:fontName="AvenirMedium.otf"
+                            android:id="@+id/txt_monto"
+                            android:gravity="center_horizontal" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TableRow android:background="#000000" android:layout_width="1dp" android:layout_height="match_parent" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.38"
+                    android:weightSum="1"
+                    android:baselineAligned="false"
+                    android:layout_marginLeft="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <com.yordy.ecoresi.views.CustomFontTextView
+                            android:textSize="14.0dip"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center|right"
+                            android:id="@+id/btn_editar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_comment_512_off"
+                            android:text="Editar"
+                            android:layout_weight="1.2"
+                            customfont:fontName="AvenirMedium.otf"
+                            android:paddingTop="3dp"
+                            android:paddingBottom="3dp"
+                            android:background="@drawable/button_background"
+                            android:layout_marginTop="2dp" />
+                        <com.yordy.ecoresi.views.CustomFontTextView
+                            android:textSize="14.0dip"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:layout_gravity="center|right"
+                            android:id="@+id/btn_eliminar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_comment_512_off"
+                            android:text="Eliminar"
+                            android:layout_weight="1.2"
+                            customfont:fontName="AvenirMedium.otf"
+                            android:paddingTop="3dp"
+                            android:paddingBottom="3dp"
+                            android:background="@drawable/button_backgroun_cancelar"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="2dp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#cecece"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/btn_mas"
+        android:visibility="visible"></LinearLayout>
+
+</LinearLayout>

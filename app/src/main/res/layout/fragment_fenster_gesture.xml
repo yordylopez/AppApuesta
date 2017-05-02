@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.malmstein.fenster.gestures.FensterGestureControllerView android:id="@id/play_gesture_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <SeekBar android:id="@id/play_gesture_horizontal_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/media_controller_seekbar_height" android:max="1000" android:layout_centerInParent="true" />
+    <SeekBar android:id="@id/play_gesture_vertical_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/media_controller_seekbar_height" android:max="1000" android:rotation="90.0" />
+</RelativeLayout>

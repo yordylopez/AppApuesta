@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo_app"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfont="http://schemas.android.com/apk/res-auto" xmlns:editext="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#fffdfdfe"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageButton
+                        android:id="@+id/animalito_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/delfin"/>
+
+                    <ImageButton
+                        android:id="@+id/animalito_00"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ballena" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/carnero"
+                        android:backgroundTint="#f80c05" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/toro" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:elevation="1dp"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/ciempies" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/alacran" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/leon" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/rana" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/perico" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/raton" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/aguila" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tigre" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gato" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/caballo" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#040303"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mono" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/paloma" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#040303"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/zorro" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/oso" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_17"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pavo" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/burro" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_19"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/chivo" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/cochino" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_21"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gallo" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_22"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/camello" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_23"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/zebra" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_24"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/iguana" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_25"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#f80c05"
+                        android:src="@drawable/gallina" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_26"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/vaca" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_27"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/perro" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_28"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#040303"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/zamuro" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_29"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#040303"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/elefante" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_30"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/caiman" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_31"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#040303"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lapa" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_32"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ardilla" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_33"
+                        android:layout_width="match_parent"
+                        android:backgroundTint="#040303"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pescado" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageButton
+                        android:id="@+id/animalito_34"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/venado" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_35"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#040303"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jirafa" />
+
+                    <ImageButton
+                        android:id="@+id/animalito_36"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f80c05"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/culebra" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

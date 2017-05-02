@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/huella"
+        app:actionLayout="@layout/actionbar_layout_huellas_count"
+        android:title="Jugadas"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/sig"
+        android:title="siguiente"
+        app:showAsAction="always">
+    </item>
+</menu>

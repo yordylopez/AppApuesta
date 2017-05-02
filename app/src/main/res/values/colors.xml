@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="myColorAccent">#00ba51</color>
+    <color name="myColorAccent1">#00ba51</color>
+    <color name="myColorPrimaryDark">#133823</color>
+    <color name="myColorPrimaryDark1">#d700bb51</color>
+    <color name="myPrimaryColor">#08c95b</color>
+    <color name="myPrimaryColor1">#02cc59</color>
+    <color name="transparente">#00000000</color>
+    <color name="default_bg">#aa000000</color>
+</resources>

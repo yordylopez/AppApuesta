@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfont="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <ToggleButton android:id="@id/home" android:background="@drawable/item_home_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:textOn=" " android:textOff=" " android:layout_weight="1.0" />
+        <ToggleButton android:id="@id/reports" android:background="@drawable/item_reports_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="false" android:textOn=" " android:textOff=" " android:layout_weight="1.0" />
+        <ToggleButton android:id="@id/camera" android:background="@drawable/item_camera_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:textOn=" " android:textOff=" " android:layout_weight="1.0" />
+        <ToggleButton android:id="@id/events" android:background="@drawable/item_events_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="false" android:textOn=" " android:textOff=" " android:layout_weight="1.0" />
+        <ToggleButton android:id="@id/profile" android:background="@drawable/item_profile_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="false" android:textOn=" " android:textOff=" " android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfont="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+
+        <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="center" android:layout_gravity="center|top" android:id="@+id/nombrev" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="Mis datos" customfont:fontName="AvenirMedium.otf" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:gravity="left">
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="left|center" android:layout_gravity="center|right" android:id="@+id/label_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="Email:"
+                    customfont:fontName="AvenirMedium.otf"
+                    android:textIsSelectable="false"
+                    android:layout_weight="0.16" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="left|center" android:layout_gravity="center|right" android:id="@+id/label_nombre" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="Nombre:"
+                    customfont:fontName="AvenirMedium.otf"
+                    android:textIsSelectable="false"
+                    android:layout_weight="0.10" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="left|center" android:layout_gravity="center|right" android:id="@+id/label_cedula" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="cedula:"
+                    customfont:fontName="AvenirMedium.otf"
+                    android:textIsSelectable="false"
+                    android:layout_weight="0.01" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="left|center" android:layout_gravity="center|right" android:id="@+id/label_fechanac" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="Fecha nac.:"
+                    customfont:fontName="AvenirMedium.otf"
+                    android:textIsSelectable="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#ffaeaeae"
+                    android:layout_gravity="center|right" android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="yordyjlg@gmail.com" android:layout_weight="0.31" customfont:fontName="AvenirMedium.otf" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#ffaeaeae"
+                    android:layout_gravity="center|right" android:id="@+id/nombre" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="yordy lopez" android:layout_weight="1.0" customfont:fontName="AvenirMedium.otf" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#ffaeaeae"
+                    android:layout_gravity="center|right" android:id="@+id/cedula" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="24126010" android:layout_weight="0.50" customfont:fontName="AvenirMedium.otf" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#ffaeaeae"
+                    android:layout_gravity="center|right" android:id="@+id/fecha_nacimiento" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="14/06/1993" android:layout_weight="1.0" customfont:fontName="AvenirMedium.otf" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TableRow android:background="#ffb9bec2" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="center" android:layout_gravity="center|right" android:id="@+id/label_banca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="Jugando en la banca" android:layout_weight="1.0" customfont:fontName="AvenirMedium.otf" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10dp">
+            <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#ffaeaeae" android:gravity="center" android:layout_gravity="center|right" android:id="@+id/banca_jugando" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="Banca mi suerte" android:layout_weight="1.0" customfont:fontName="AvenirMedium.otf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.yordy.ecoresi.views.CustomFontTextView
+                        android:textSize="14.0dip"
+                        android:textColor="#ff00adfe"
+                        android:gravity="center"
+                        android:layout_gravity="center|right"
+                        android:id="@+id/banca_detalles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:src="@drawable/ic_comment_512_off"
+                        android:text="Ver detalles"
+                        android:layout_weight="1.2"
+                        customfont:fontName="AvenirMedium.otf"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp">
+
+                    <TableRow
+                        android:background="#ffb9bec2"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.yordy.ecoresi.views.CustomFontTextView
+                        android:textSize="14.0dip"
+                        android:textColor="#ff00adfe"
+                        android:gravity="center"
+                        android:layout_gravity="center|right"
+                        android:id="@+id/cambiar_banca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_comment_512_off"
+                        android:text="Cambiar banca"
+                        android:layout_weight="1"
+                        customfont:fontName="AvenirMedium.otf"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <TableRow android:background="#ffb9bec2" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.yordy.ecoresi.views.CustomFontTextView
+                    android:textSize="19.0dip"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_gravity="center|right"
+                    android:id="@+id/label_dinero_disponible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:src="@drawable/ic_comment_512_off"
+                    android:text="Dinero disponible"
+                    android:layout_weight="1.0"
+                    customfont:fontName="AvenirMedium.otf" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="16.0dip" android:textColor="#339a4b" android:gravity="center" android:layout_gravity="center" android:id="@+id/dinero_disponible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="365  Bs." android:layout_weight="1.0" customfont:fontName="AvenirMedium.otf" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="#ffb9bec2"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.yordy.ecoresi.views.CustomFontTextView
+                    android:textSize="19.0dip"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_gravity="center|right"
+                    android:id="@+id/label_dinero_jugado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:src="@drawable/ic_comment_512_off"
+                    android:text="Dinero jugado"
+                    android:layout_weight="1.0"
+                    customfont:fontName="AvenirMedium.otf" />
+
+                <com.yordy.ecoresi.views.CustomFontTextView android:textSize="16.0dip" android:textColor="#339a4b" android:gravity="center" android:layout_gravity="center" android:id="@+id/dinero_jugado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_comment_512_off" android:text="120 Bs." android:layout_weight="1.0" customfont:fontName="AvenirMedium.otf" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TableRow android:background="#ffb9bec2" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" />
+        <com.yordy.ecoresi.views.CustomFontTextView android:textSize="19.0dip" android:textColor="#000000" android:gravity="center" android:layout_gravity="center|top" android:id="@+id/axu1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+            android:text="Mis ultimas jugadas" customfont:fontName="AvenirMedium.otf" />
+
+        <TableRow android:background="#ffb9bec2" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

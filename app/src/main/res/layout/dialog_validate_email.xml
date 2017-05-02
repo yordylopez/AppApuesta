@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    xmlns:editext="http://schemas.android.com/apk/res-auto"
+    android:minWidth="400dp">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffdfdfe">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="0.0dip"
+            android:minWidth="400dp"
+            android:orientation="vertical">
+
+            <com.yordy.ecoresi.views.CustomFontTextView
+                android:id="@+id/txt_animalito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="Verificar email"
+                android:textColor="#000000"
+                android:textSize="19.0dip"
+                customfont:fontName="AvenirMedium.otf" />
+
+            <com.yordy.ecoresi.views.CustomFontTextView
+                android:id="@+id/txt_animalito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:text="Este codigo de verificacion fue enviado a su email."
+                android:textColor="@color/bright_foreground_disabled_material_light"
+                android:textSize="12sp"
+                customfont:fontName="AvenirMedium.otf" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:id="@+id/codigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10.0dip"
+                        android:background="@color/transparente"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:hint="Ingrese el codigo"
+                        android:inputType="number"
+                        android:numeric="decimal"
+                        android:singleLine="true"
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:textSize="17.0dip"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="numeric" />
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.70000005dip"
+                    android:alpha="0.4"
+                    android:background="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.70000005dip"
+                    android:alpha="0.4"
+                    android:background="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.yordy.ecoresi.views.CustomFontButton
+                    android:id="@+id/candelar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_backgroun_cancelar"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip"
+                    android:text="Cancelar"
+                    android:textAllCaps="false"
+                    android:textColor="#fffdfcf9"
+                    android:textSize="19.0dip"
+                    editext:fontName="AvenirMedium.otf" />
+
+                <com.yordy.ecoresi.views.CustomFontButton
+                    android:id="@+id/guardar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip"
+                    android:text="Validar"
+                    android:textAllCaps="false"
+                    android:textColor="#fffdfcf9"
+                    android:textSize="19.0dip"
+                    editext:fontName="AvenirMedium.otf" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
