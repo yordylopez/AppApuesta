@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="home" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="up" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="toolbar_title">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="navbar">false</item>
+    <item type="id" name="imageView3">false</item>
+    <item type="id" name="sub">false</item>
+    <item type="id" name="imageView">false</item>
+    <item type="id" name="imageView2">false</item>
+    <item type="id" name="contrasenaactual">false</item>
+    <item type="id" name="contrasena">false</item>
+    <item type="id" name="rpcontrasena">false</item>
+    <item type="id" name="olvide">false</item>
+    <item type="id" name="iniciar_sesion">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="registrarse">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="nombre">false</item>
+    <item type="id" name="apellido">false</item>
+    <item type="id" name="sexo">false</item>
+    <item type="id" name="fecha_nacimiento">false</item>
+    <item type="id" name="cedula">false</item>
+    <item type="id" name="cumpleanos">false</item>
+    <item type="id" name="imageView4">false</item>
+    <item type="id" name="registrarme">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="play_gesture_controller">false</item>
+    <item type="id" name="play_gesture_horizontal_seekbar">false</item>
+    <item type="id" name="play_gesture_vertical_seekbar">false</item>
+    <item type="id" name="play_video_texture">false</item>
+    <item type="id" name="play_video_controller">false</item>
+    <item type="id" name="play_video_loading">false</item>
+    <item type="id" name="reports">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="events">false</item>
+    <item type="id" name="profile">false</item>
+    <item type="id" name="posts">false</item>
+    <item type="id" name="aux">false</item>
+    <item type="id" name="ubicacion">false</item>
+    <item type="id" name="foto">false</item>
+    <item type="id" name="seguidores">false</item>
+    <item type="id" name="siguiendo">false</item>
+    <item type="id" name="axu1">false</item>
+    <item type="id" name="estado">false</item>
+    <item type="id" name="editar">false</item>
+    <item type="id" name="foto_user">false</item>
+    <item type="id" name="user">false</item>
+    <item type="id" name="video">false</item>
+    <item type="id" name="imagen">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="reputacion">false</item>
+    <item type="id" name="comment">false</item>
+    <item type="id" name="imageView14">false</item>
+    <item type="id" name="num_coments">false</item>
+    <item type="id" name="descripcion">false</item>
+    <item type="id" name="titulo">false</item>
+    <item type="id" name="media_controller_loading_view">false</item>
+    <item type="id" name="media_controller_root">false</item>
+    <item type="id" name="media_controller_gestures_area">false</item>
+    <item type="id" name="media_controller_bottom_root">false</item>
+    <item type="id" name="media_controller_bottom_area">false</item>
+    <item type="id" name="media_controller_time_current">false</item>
+    <item type="id" name="media_controller_progress">false</item>
+    <item type="id" name="media_controller_time">false</item>
+    <item type="id" name="media_controller_controls">false</item>
+    <item type="id" name="media_controller_brightness">false</item>
+    <item type="id" name="media_controller_previous">false</item>
+    <item type="id" name="media_controller_pause">false</item>
+    <item type="id" name="media_controller_next">false</item>
+    <item type="id" name="media_controller_volume">false</item>
+    <item type="id" name="media_controller_touch_root">false</item>
+    <item type="id" name="media_controller_controls_root">false</item>
+    <item type="id" name="action_settings">false</item>
+
+    <item type="id" name="perfil_scrol">false</item>
+</resources>

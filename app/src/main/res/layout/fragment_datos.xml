@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/fondo_app"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    xmlns:editext="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_gravity="center|top"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0.0dip">
+
+            <com.yordy.ecoresi.views.CustomFontTextView
+                android:textSize="33.0dip"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center|top"
+                android:id="@id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="30.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:text="Modificar Datos"
+                editext:fontName="AvenirRegular.otf" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="40.0dip">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/nombre"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10.0dip"
+                        android:hint="Nombre"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="alpha"
+                        android:layout_marginLeft="10dip" />
+                </LinearLayout>
+                <TableRow
+                    android:background="@android:color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.70000005dip"
+                    android:alpha="0.4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15.0dip">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/apellido"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10.0dip"
+                        android:hint="Apellido"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="alpha"
+                        android:layout_marginLeft="10dip" />
+                </LinearLayout>
+                <TableRow
+                    android:background="@android:color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.70000005dip"
+                    android:alpha="0.4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15.0dip">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/fecha_nacimiento"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10.0dip"
+                        android:hint="Fecha de nacimiento"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="date"
+                        android:layout_marginLeft="10dip" />
+                </LinearLayout>
+                <TableRow
+                    android:background="@android:color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.70000005dip"
+                    android:alpha="0.4" />
+            </LinearLayout>
+
+
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50dip">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/email"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10.0dip"
+                        android:hint="Email"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="email"
+                        android:layout_marginLeft="10dip"
+                        android:editable="true" />
+                </LinearLayout>
+                <TableRow android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:alpha="0.4" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/contrasenaactual"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:hint="Contraseña actual"
+                        android:password="true"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="nocheck" />
+                </LinearLayout>
+                <TableRow android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:alpha="0.4" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/contrasena"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:hint="Contraseña nueva"
+                        android:password="true"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:testType="nocheck" />
+                </LinearLayout>
+                <TableRow android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:alpha="0.4" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip">
+
+                    <com.yordy.ecoresi.views.CustomFontFormEditText
+                        android:textSize="17.0dip"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#bc131313"
+                        android:id="@id/rpcontrasena"
+                        android:background="@color/transparente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:hint="Repetir contraseña"
+                        android:password="true"
+                        android:singleLine="true"
+                        editext:fontName="AvenirMedium.otf"
+                        editext:classType="com.yordy.ecoresi.customValidation.PasswordValidation"
+                        editext:testErrorString="No son iguales"
+                        editext:testType="custom"/>
+                </LinearLayout>
+                <TableRow android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:alpha="0.4" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+                <com.yordy.ecoresi.views.CustomFontButton
+                    android:id="@+id/update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="50.0dip"
+                    android:background="@drawable/button_background"
+                    android:orientation="horizontal"
+                    android:padding="20.0dip"
+                    android:text="Guardar"
+                    android:textAllCaps="false"
+                    android:textColor="#fffdfcf9"
+                    android:textSize="19.0dip"
+                    editext:fontName="AvenirMedium.otf" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
